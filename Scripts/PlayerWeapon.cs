@@ -25,8 +25,8 @@ public class PlayerWeapon : MonoBehaviour
 
     void Update()
     {
-        CheckHandHeight(leftHandTransform, "¥ª¤â", ref isLeftHandReady, XRNode.LeftHand, ref leftHandTriggerClicked);
-        CheckHandHeight(rightHandTransform, "¥k¤â", ref isRightHandReady, XRNode.RightHand, ref rightHandTriggerClicked);
+        CheckHandHeight(leftHandTransform, "Â¥ÂªÂ¤Ã¢", ref isLeftHandReady, XRNode.LeftHand, ref leftHandTriggerClicked);
+        CheckHandHeight(rightHandTransform, "Â¥kÂ¤Ã¢", ref isRightHandReady, XRNode.RightHand, ref rightHandTriggerClicked);
 
         // Update the trunk animation based on hand height
         if (isLeftHandReady || isRightHandReady)
